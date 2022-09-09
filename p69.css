@@ -1,0 +1,1266 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Assistant', sans-serif;
+    overflow-x: hidden;
+    cursor: none;
+    
+    
+}
+
+.cursor{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    z-index: 9;
+    mix-blend-mode: difference;
+    
+
+
+}
+#first{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(27, 26, 26);
+
+}
+.img1{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    left: 2%;
+
+
+
+}
+.nav1{
+    position: absolute;
+    left: 35%;
+    color: aliceblue;
+}
+.nav1 ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav1 ul li{
+    padding: 60px;
+    font-size: 12px;
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: transparent;
+    color: aliceblue;
+}
+.btn1{
+    position: absolute;
+    right: 3%;
+    top: 10%;
+}
+.txt{
+    position: absolute;
+    height: 380px;
+    width: 380px;
+    /* border: 1px solid white; */
+    top: 25%;
+    right: 20%;
+}
+.txt h2{
+    font-size: 48px;
+    color: aliceblue;
+    font-weight: 100;
+}
+h5{
+    color: aliceblue;
+    font-size: 17px;
+
+    
+}
+.btn2{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.nav2{
+    position: absolute;
+    left: 3%;
+    bottom: 3%;
+    color: aliceblue;
+}
+.nav2 ul{
+    display: flex;
+    list-style: none;
+
+}
+.nav2 ul li{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.year{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+#sec{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+
+}
+.txt2{
+    position: absolute;
+    height: 350px;
+    width: 620px;
+    /* border: 1px solid black; */
+    top: 10%;
+    left: 27%;
+}
+.txt2 h2{
+    font-size: 35px;
+    font-weight: 300;
+    color: black;
+    
+}
+.img2{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+p{
+    height: 200p;
+    width: 280px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.txt3{
+    position: absolute;
+    height: 25%;
+    width: 70%;
+    /* border: 1px solid black; */
+    bottom: 10%;
+    left: 2%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.flex h3{
+    font-weight: 300;
+
+}
+.btn3{
+    position: absolute;
+    color: rgb(71, 67, 67);
+    border:  1px solid black;
+    bottom: 20%;
+    right: 5%;
+    font-size: 12px;
+    font-weight: bold;
+    
+    
+}
+#third{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: scroll;
+
+} 
+#third::-webkit-scrollbar{
+    display: none;
+}
+.pehla{
+    position: absolute;
+    height: 98%;
+    width: 92%;
+    left: 2%;
+
+}
+.img3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.dusra{
+    position: absolute;
+    height: 98%;
+    width: 92%;
+    left: 95%;
+    
+
+}
+.img4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.tisra{
+    position: absolute;
+    height: 98%;
+    width: 92%;
+    left: 188%;
+    
+
+}
+.img5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.chotha{
+    position: absolute;
+    height: 98%;
+    width: 92%;
+    left: 281%;
+    
+
+}
+.img6{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.pachva{
+    position: absolute;
+    height: 98%;
+    width: 92%;
+    left: 374%;
+    
+
+}
+.img7{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#fourth{
+    position: relative;
+    height: 130vh;
+    width: 100vw;
+    background-color: white;
+
+
+}
+.txt4{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    /* border: 1px solid black; */
+    left: 30%;
+    top: 15%;
+}
+.txt4 h2{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+
+}
+.txt4 h5{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    margin-top: 20px;
+}
+.box1{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-top: 1px solid rgb(63, 60, 60);
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 40%;
+    
+
+}
+.box1 .a{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+   
+
+}
+.mg1{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    display: none;
+    /* transform: scale(0); */
+    
+
+
+}
+.box2{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 47%;
+
+}
+.mg2{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box2 .b{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.box3{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 54%;
+
+}
+.box3 .c{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.mg3{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box4{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 61%;
+
+}
+.box4 .d{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.mg4{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box5{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 68%;
+
+}
+.box5 .e{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.mg5{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box6{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 76%;
+
+}
+.box6 .f{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.mg6{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box7{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 83%;
+
+}
+.mg7{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+.box7 .g{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.box8{
+    position: absolute;
+    height: 7%;
+    width: 90%;
+    border-bottom: 1px solid rgb(63, 60, 60);
+    /* background-color: aqua; */
+    left: 5%;
+    top: 90%;
+
+}
+.box8 .h{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: rgb(82, 79, 79);
+
+}
+.mg8{
+    position: absolute;
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    object-position: center;
+    left: 40%;
+    top: -150%;
+    /* transform: scale(0); */
+    display: none;
+
+
+}
+
+
+#fifth{
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+
+
+}
+.cir{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    top: 10%;
+    left: 50%;
+}
+.btn4{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    
+    
+}
+.ltxt{
+    position: absolute;
+    font-size: 160px;
+    top: 25%;
+    left: 23%; 
+    color: aliceblue;
+    font-weight: 300;
+   
+}
+
+.mg9{
+    position: absolute;
+    top: 47%;
+    right: 20%;
+    transform-origin: center;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation{
+    0%{
+        transform: rotateX(-180deg);
+
+    }
+    50%{
+        transform: rotateY(-180deg);
+    }
+    100%{
+        transform: rotateX(180deg);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+    .cursor{
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        z-index: 9;
+        mix-blend-mode: difference;
+        
+    
+    
+    }
+    #first{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(27, 26, 26);
+    
+    }
+    .img1{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        left: 2%;
+    
+    
+    
+    }
+    .nav1{
+        position: absolute;
+        left: 60%;
+        color: aliceblue;
+        top: 5%;
+    }
+    .nav1 ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    
+    }
+    .nav1 ul li{
+        padding: 7px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    button{
+        padding: 8px 18px;
+        border-radius: 50px;
+        border: 1px solid white;
+        background: transparent;
+        color: aliceblue;
+    }
+    .btn1{
+        position: absolute;
+        right: 13%;
+        top: 18%;
+    }
+    .txt{
+        position: absolute;
+        height: 380px;
+        width: 380px;
+        /* border: 1px solid white; */
+        top: 45%;
+        left: 7%;
+    }
+    .txt h2{
+        font-size: 33px;
+        color: aliceblue;
+        font-weight: 100;
+        width: 250px;
+    }
+    h5{
+        color: aliceblue;
+        font-size: 15px;
+        width: 250px;
+        margin-top: 10px;
+        font-weight: 100;
+    
+        
+    }
+    .btn2{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 20px;
+        display: none;
+    }
+    .nav2{
+        position: absolute;
+        left: 2%;
+        bottom: 3%;
+        color: aliceblue;
+    }
+    .nav2 ul{
+        display: flex;
+        list-style: none;
+    
+    }
+    .nav2 ul li{
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .year{
+        position: absolute;
+        bottom: 4%;
+        right: 8%;
+        color: aliceblue;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #sec{
+        position: relative;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+    
+    }
+    .txt2{
+        position: absolute;
+        height: 350px;
+        width: 360px;
+        /* border: 1px solid black; */
+        top: 30%;
+        left: 7%;
+        align-items: center;
+        text-align: center;
+    }
+    .txt2 h2{
+        font-size: 18px;
+        font-weight: 300;
+        color: black;
+        
+    }
+    .img2{
+        position: absolute;
+        right: 35%;
+        top: 5%;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+    p{
+        height: 200p;
+        width: 300px;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .txt3{
+        position: absolute;
+        height: 25%;
+        width: 80%;
+        /* border: 1px solid black; */
+        bottom: 21%;
+        left: 5%;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 15px;
+       
+    }
+    .flex h3{
+        font-weight: 300;
+        
+    
+    }
+    .btn3{
+        position: absolute;
+        color: rgb(71, 67, 67);
+        border:  1px solid black;
+        bottom: 45%;
+        right: 10%;
+        font-size: 8px;
+        font-weight: bold;
+        
+        
+    }
+    #third{
+        position: relative;
+        height: 80vh;
+        width: 100vw;
+        overflow-x: scroll;
+    
+    } 
+    #third::-webkit-scrollbar{
+        display: none;
+    }
+    .pehla{
+        position: absolute;
+        height: 98%;
+        width: 92%;
+        left: 2%;
+    
+    }
+    .img3{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    
+    }
+    
+    .dusra{
+        position: absolute;
+        height: 98%;
+        width: 92%;
+        left: 95%;
+        
+    
+    }
+    .img4{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    
+    }
+    .tisra{
+        position: absolute;
+        height: 98%;
+        width: 92%;
+        left: 188%;
+        
+    
+    }
+    .img5{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    
+    }
+    .chotha{
+        position: absolute;
+        height: 98%;
+        width: 92%;
+        left: 281%;
+        
+    
+    }
+    .img6{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    
+    }
+    .pachva{
+        position: absolute;
+        height: 98%;
+        width: 92%;
+        left: 374%;
+        
+    
+    }
+    .img7{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+    
+    }
+    
+    #fourth{
+        position: relative;
+        height: 130vh;
+        width: 100vw;
+        background-color: white;
+    
+    
+    }
+    .txt4{
+        position: absolute;
+        height: 300px;
+        width: 400px;
+        /* border: 1px solid black; */
+        left: 0%;
+   
+        top: 10%;
+        text-align: center;
+        
+
+    }
+    .txt4 h2{
+
+        font-size: 28px;
+        text-align: center;
+        font-weight: 300;
+      
+    
+    }
+    .txt4 h5{
+        
+        font-size: 12px;
+        color: black;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 400px;
+    }
+    .box1{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-top: 1px solid rgb(63, 60, 60);
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 40%;
+        
+    
+    }
+    .box1 .a{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+       
+    
+    }
+    .mg1{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        display: none;
+        /* transform: scale(0); */
+    }
+    .box2{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 47%;
+    
+    }
+    .mg2{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box2 .b{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+    
+    }
+    .box3{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 54%;
+    
+    }
+    .box3 .c{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        color: rgb(82, 79, 79);
+        font-size: 13px;
+    
+    }
+    .mg3{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box4{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 61%;
+    
+    }
+    .box4 .d{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+    
+    }
+    .mg4{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box5{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 68%;
+    
+    }
+    .box5 .e{
+        position: absolute;
+        top: 30%;
+        font-size: 13px;
+        left: 0%;
+        color: rgb(82, 79, 79);
+    
+    }
+    .mg5{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box6{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 76%;
+    
+    }
+    .box6 .f{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+    
+    }
+    .mg6{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box7{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 83%;
+    
+    }
+    .mg7{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    .box7 .g{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+    
+    }
+    .box8{
+        position: absolute;
+        height: 7%;
+        width: 90%;
+        border-bottom: 1px solid rgb(63, 60, 60);
+        /* background-color: aqua; */
+        left: 5%;
+        top: 90%;
+    
+    }
+    .box8 .h{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        font-size: 13px;
+        color: rgb(82, 79, 79);
+    
+    }
+    .mg8{
+        position: absolute;
+        height: 180px;
+        width: 200px;
+        object-fit: cover;
+        object-position: center;
+        left: 40%;
+        top: -150%;
+        /* transform: scale(0); */
+        display: none;
+    
+    
+    }
+    
+    
+    #fifth{
+        position: relative;
+        height: 90vh;
+        width: 100vw;
+        background-color: black;
+    
+    
+    }
+    .cir{
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: aliceblue;
+        top: 10%;
+        left: 45%;
+    }
+    .btn4{
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        
+        
+    }
+    .ltxt{
+        position: absolute;
+        font-size: 80px;
+        top: 35%;
+        left:5%; 
+        color: aliceblue;
+        font-weight: 300;
+       
+    }
+    
+    .mg9{
+        position: absolute;
+        top: 57%;
+        right: 47%;
+        transform-origin: center;
+        animation: rotation 2s infinite linear;
+    }
+    
+    @keyframes rotation{
+        0%{
+            transform: rotateX(-180deg);
+    
+        }
+        50%{
+            transform: rotateY(-180deg);
+        }
+        100%{
+            transform: rotateX(180deg);
+        }
+    
+    }
+
+}
